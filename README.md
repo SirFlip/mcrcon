@@ -1,21 +1,21 @@
-###Installing:
+### Installing:
 
 from sources:
 ```sh
-git clone https://github.com/Tiiffi/mcrcon.git
+git clone https://github.com/SirFlip/mcrcon.git
 cd mcrcon
 make
 sudo make install
 ```
 Check **INSTALL** for more details.
 
-You can also download precompiled binaries*: https://github.com/Tiiffi/mcrcon/releases/latest
+You can also download precompiled binaries*: https://github.com/SirFlip/mcrcon/releases/latest
 
 <sub>*At the moment binaries are provided for Linux and Windows.</sub>
 
 ---
 
-###Usage:
+### Usage:
 mcrcon [OPTIONS]... [COMMANDS]...
 
 Sends rcon commands to Minecraft server.
@@ -47,7 +47,7 @@ Example:
 
 ---
 
-###Enable rcon on server
+### Enable rcon on server
 Remember to enable rcon by adding following lines to ```server.properties``` file.
 ```
 enable-rcon=true
@@ -57,8 +57,12 @@ rcon.password=your_rcon_pasword
 
 ---
 
-####Contact:
+#### Contact:
 
+* WWW:            https://github.com/SirFlip/mcrcon/
+* BUG REPORTS:    https://github.com/SirFlip/mcrcon/issues/
+
+Original Author:
 * WWW:            https://github.com/Tiiffi/mcrcon/
 * MAIL:           tiiffi_at_gmail_dot_com
 * IRC:            tiiffi @ quakenet
@@ -66,5 +70,5 @@ rcon.password=your_rcon_pasword
 
 ---
 
-<sub>Master:</sub> ![Master build](https://api.travis-ci.org/Tiiffi/mcrcon.svg?branch=master)
-<sub>Develop:</sub> ![Develop build](https://api.travis-ci.org/Tiiffi/mcrcon.svg?branch=develop)
+<sub>Master:</sub> ![Master build](https://travis-ci.com/SirFlip/mcrcon.svg?branch=master)
+<sub>Develop:</sub> ![Develop build](https://travis-ci.com/SirFlip/mcrcon.svg?branch=develop)
